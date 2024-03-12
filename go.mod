@@ -1,6 +1,9 @@
 module github.com/Azunyan1111/hugo
 
+replace github.com/gohugoio/hugo v0.123.8 => github.com/Azunyan1111/hugo v0.123.8.gtm.3
+
 require (
+	github.com/gohugoio/hugo v0.123.8
 	github.com/BurntSushi/locker v0.0.0-20171006230638-a6e239ea1c69
 	github.com/alecthomas/chroma/v2 v2.12.0
 	github.com/armon/go-radix v1.0.1-0.20221118154546-54df44f2176c
@@ -117,7 +120,6 @@ require (
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/go-openapi/jsonpointer v0.20.2 // indirect
 	github.com/go-openapi/swag v0.22.8 // indirect
-	github.com/gohugoio/hugo v0.123.8 // indirect
 	github.com/golang-jwt/jwt/v5 v5.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
