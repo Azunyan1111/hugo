@@ -20,20 +20,20 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/media"
 
-	"github.com/gohugoio/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources"
 
-	"github.com/gohugoio/hugo/resources/internal"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/internal/sass"
+	"github.com/Azunyan1111/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/tocss/internal/sass"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugofs"
 
 	godartsassv1 "github.com/bep/godartsass"
 	"github.com/bep/godartsass/v2"

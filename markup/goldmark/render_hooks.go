@@ -17,12 +17,12 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/types/hstring"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/goldmark/goldmark_config"
-	"github.com/gohugoio/hugo/markup/goldmark/images"
-	"github.com/gohugoio/hugo/markup/goldmark/internal/render"
-	"github.com/gohugoio/hugo/markup/internal/attributes"
+	"github.com/Azunyan1111/hugo/common/types/hstring"
+	"github.com/Azunyan1111/hugo/markup/converter/hooks"
+	"github.com/Azunyan1111/hugo/markup/goldmark/goldmark_config"
+	"github.com/Azunyan1111/hugo/markup/goldmark/images"
+	"github.com/Azunyan1111/hugo/markup/goldmark/internal/render"
+	"github.com/Azunyan1111/hugo/markup/internal/attributes"
 
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/ast"

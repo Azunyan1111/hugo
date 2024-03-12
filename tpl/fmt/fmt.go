@@ -18,9 +18,9 @@ import (
 	_fmt "fmt"
 	"sort"
 
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/deps"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/deps"
 	"github.com/spf13/cast"
 )
 

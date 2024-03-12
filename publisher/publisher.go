@@ -20,22 +20,22 @@ import (
 	"net/url"
 	"sync/atomic"
 
-	"github.com/gohugoio/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources"
 
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/media"
 
-	"github.com/gohugoio/hugo/minifiers"
+	"github.com/Azunyan1111/hugo/minifiers"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/helpers"
+	bp "github.com/Azunyan1111/hugo/bufferpool"
+	"github.com/Azunyan1111/hugo/helpers"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/transform"
-	"github.com/gohugoio/hugo/transform/livereloadinject"
-	"github.com/gohugoio/hugo/transform/metainject"
-	"github.com/gohugoio/hugo/transform/urlreplacers"
+	"github.com/Azunyan1111/hugo/output"
+	"github.com/Azunyan1111/hugo/transform"
+	"github.com/Azunyan1111/hugo/transform/livereloadinject"
+	"github.com/Azunyan1111/hugo/transform/metainject"
+	"github.com/Azunyan1111/hugo/transform/urlreplacers"
 )
 
 // Descriptor describes the needed publishing chain for an item.

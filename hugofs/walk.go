@@ -20,9 +20,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/paths"
 
 	"github.com/spf13/afero"
 )

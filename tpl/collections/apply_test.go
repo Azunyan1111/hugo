@@ -20,12 +20,12 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/output"
+	"github.com/Azunyan1111/hugo/output/layouts"
+	"github.com/Azunyan1111/hugo/tpl"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/output/layouts"
-	"github.com/gohugoio/hugo/tpl"
 )
 
 type templateFinder int

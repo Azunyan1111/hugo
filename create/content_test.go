@@ -20,19 +20,19 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/allconfig"
+	"github.com/Azunyan1111/hugo/config/testconfig"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/deps"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugofs"
 
+	"github.com/Azunyan1111/hugo/create"
+	"github.com/Azunyan1111/hugo/helpers"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/create"
-	"github.com/gohugoio/hugo/helpers"
 	"github.com/spf13/afero"
 )
 

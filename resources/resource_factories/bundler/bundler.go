@@ -19,11 +19,11 @@ import (
 	"io"
 	"path"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/media"
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/resource"
 )
 
 // Client contains methods perform concatenation and other bundling related

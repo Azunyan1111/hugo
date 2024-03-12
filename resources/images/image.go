@@ -25,18 +25,18 @@ import (
 	"io"
 	"sync"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/resources/images/webp"
 	"github.com/bep/gowebp/libwebp/webpoptions"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/resources/images/webp"
 
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources/images/exif"
+	"github.com/Azunyan1111/hugo/media"
+	"github.com/Azunyan1111/hugo/resources/images/exif"
 
 	"github.com/disintegration/gift"
 	"golang.org/x/image/bmp"
 	"golang.org/x/image/tiff"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/common/hugio"
 )
 
 func NewImage(f Format, proc *ImageProcessor, img image.Image, s Spec) *Image {

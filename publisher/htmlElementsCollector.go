@@ -24,8 +24,8 @@ import (
 
 	"golang.org/x/net/html"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/helpers"
 )
 
 const eof = -1

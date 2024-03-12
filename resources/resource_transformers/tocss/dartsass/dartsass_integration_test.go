@@ -17,11 +17,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/tocss/dartsass"
 	"github.com/bep/logg"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/dartsass"
 )
 
 func TestTransformIncludePaths(t *testing.T) {

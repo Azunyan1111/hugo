@@ -16,8 +16,8 @@ package postpub
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/media"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/media"
 )
 
 func TestCreatePlaceholders(t *testing.T) {

@@ -16,9 +16,9 @@ package minifiers_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/testconfig"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
 )
 
 func TestConfig(t *testing.T) {

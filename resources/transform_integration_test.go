@@ -16,7 +16,7 @@ package resources_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 )
 
 func TestTransformCached(t *testing.T) {

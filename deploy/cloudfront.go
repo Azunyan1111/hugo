@@ -21,10 +21,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/Azunyan1111/hugo/deploy/deployconfig"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront"
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
-	"github.com/gohugoio/hugo/deploy/deployconfig"
 	gcaws "gocloud.dev/aws"
 )
 

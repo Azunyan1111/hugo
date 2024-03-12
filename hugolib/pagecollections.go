@@ -19,13 +19,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
 )
 
 // pageFinder provides ways to find a Page in a Site.

@@ -23,19 +23,19 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/resources/internal"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/media"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 )
 
 var (

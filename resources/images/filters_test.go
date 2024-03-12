@@ -16,8 +16,8 @@ package images
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/identity"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/identity"
 )
 
 func TestFilterHash(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/modules/npm"
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/modules/npm"
 	"github.com/spf13/cobra"
 )
 

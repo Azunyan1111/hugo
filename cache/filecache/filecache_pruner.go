@@ -18,8 +18,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/hugofs"
 
 	"github.com/spf13/afero"
 )

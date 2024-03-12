@@ -18,19 +18,19 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/herrors"
 	"golang.org/x/text/language"
 	yaml "gopkg.in/yaml.v2"
 
+	"github.com/Azunyan1111/hugo/helpers"
 	"github.com/gohugoio/go-i18n/v2/i18n"
-	"github.com/gohugoio/hugo/helpers"
 	toml "github.com/pelletier/go-toml/v2"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/source"
 )
 
 // TranslationProvider provides translation handling, i.e. loading

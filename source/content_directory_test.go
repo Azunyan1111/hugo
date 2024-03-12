@@ -18,14 +18,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/source"
 	"github.com/spf13/afero"
 
+	"github.com/Azunyan1111/hugo/hugofs"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugofs"
 )
 
 func TestIgnoreDotFilesAndDirectories(t *testing.T) {

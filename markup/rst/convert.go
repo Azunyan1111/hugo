@@ -18,13 +18,13 @@ import (
 	"bytes"
 	"runtime"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/Azunyan1111/hugo/common/hexec"
+	"github.com/Azunyan1111/hugo/htesting"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/identity"
 
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/internal"
+	"github.com/Azunyan1111/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/internal"
 )
 
 // Provider is the package entry point.

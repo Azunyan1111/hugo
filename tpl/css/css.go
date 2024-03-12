@@ -3,9 +3,9 @@ package css
 import (
 	"context"
 
-	"github.com/gohugoio/hugo/common/types/css"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/tpl/internal"
+	"github.com/Azunyan1111/hugo/common/types/css"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/tpl/internal"
 	"github.com/spf13/cast"
 )
 

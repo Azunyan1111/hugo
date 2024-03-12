@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/hugolib"
 	"github.com/bep/logg"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
 )
 
 // See issue #10781. That issue wouldn't have been triggered if we kept

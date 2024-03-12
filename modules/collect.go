@@ -24,22 +24,22 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/loggers"
 	"github.com/bep/debounce"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
 
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/Azunyan1111/hugo/hugofs/files"
 
 	"golang.org/x/mod/module"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 	"github.com/spf13/afero"
 )
 

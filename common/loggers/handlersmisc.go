@@ -20,8 +20,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Azunyan1111/hugo/identity"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/identity"
 )
 
 // PanicOnWarningHook panics on warnings.

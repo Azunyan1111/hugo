@@ -20,9 +20,9 @@ import (
 	"errors"
 	"html/template"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
+	bp "github.com/Azunyan1111/hugo/bufferpool"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/maps"
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/cast"
 )

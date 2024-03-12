@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/compare"
+	"github.com/Azunyan1111/hugo/compare"
 )
 
 var _ compare.Eqer = StringEqualFold("")

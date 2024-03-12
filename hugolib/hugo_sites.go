@@ -21,32 +21,32 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/Azunyan1111/hugo/cache/dynacache"
+	"github.com/Azunyan1111/hugo/config/allconfig"
+	"github.com/Azunyan1111/hugo/hugofs/glob"
+	"github.com/Azunyan1111/hugo/hugolib/doctree"
+	"github.com/Azunyan1111/hugo/resources"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/cache/dynacache"
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/hugofs/glob"
-	"github.com/gohugoio/hugo/hugolib/doctree"
-	"github.com/gohugoio/hugo/resources"
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/Azunyan1111/hugo/output"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/para"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/para"
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/source"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/lazy"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/lazy"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/page"
 )
 
 // HugoSites represents the sites to build. Each site represents a language.

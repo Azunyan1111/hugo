@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/hugolib"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
 )
 
 func TestBuildVariants(t *testing.T) {

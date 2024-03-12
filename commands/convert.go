@@ -21,15 +21,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/parser"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
+	"github.com/Azunyan1111/hugo/parser/pageparser"
+	"github.com/Azunyan1111/hugo/resources/page"
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
-	"github.com/gohugoio/hugo/parser/pageparser"
-	"github.com/gohugoio/hugo/resources/page"
 	"github.com/spf13/cobra"
 )
 

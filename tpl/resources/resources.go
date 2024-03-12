@@ -20,26 +20,26 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/tpl/internal/resourcehelpers"
+	"github.com/Azunyan1111/hugo/tpl/internal/resourcehelpers"
 
-	"github.com/gohugoio/hugo/resources/postpub"
+	"github.com/Azunyan1111/hugo/resources/postpub"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/resources/resource_factories/bundler"
-	"github.com/gohugoio/hugo/resources/resource_factories/create"
-	"github.com/gohugoio/hugo/resources/resource_transformers/babel"
-	"github.com/gohugoio/hugo/resources/resource_transformers/integrity"
-	"github.com/gohugoio/hugo/resources/resource_transformers/minifier"
-	"github.com/gohugoio/hugo/resources/resource_transformers/postcss"
-	"github.com/gohugoio/hugo/resources/resource_transformers/templates"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/dartsass"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/scss"
+	"github.com/Azunyan1111/hugo/resources/resource_factories/bundler"
+	"github.com/Azunyan1111/hugo/resources/resource_factories/create"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/babel"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/integrity"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/minifier"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/postcss"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/templates"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/tocss/dartsass"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/tocss/scss"
 
 	"github.com/spf13/cast"
 )

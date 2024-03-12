@@ -22,17 +22,17 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/modules/npm"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/modules/npm"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/common/loggers"
 
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/hugofs"
 
 	qt "github.com/frankban/quicktest"
 	"github.com/gohugoio/testmodBuilder/mods"

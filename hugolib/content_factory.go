@@ -21,13 +21,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/source"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/page"
 
 	"github.com/spf13/afero"
 )

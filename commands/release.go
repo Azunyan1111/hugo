@@ -16,8 +16,8 @@ package commands
 import (
 	"context"
 
+	"github.com/Azunyan1111/hugo/releaser"
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/releaser"
 	"github.com/spf13/cobra"
 )
 

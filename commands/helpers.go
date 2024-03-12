@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/config"
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/config"
 	"github.com/spf13/pflag"
 )
 

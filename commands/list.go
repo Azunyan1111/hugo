@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Azunyan1111/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
 )
 
 // newListCommand creates a new list command and its subcommands.

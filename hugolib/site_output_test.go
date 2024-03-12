@@ -19,14 +19,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/hstrings"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/resources/kinds"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/hstrings"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/resources/kinds"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/Azunyan1111/hugo/output"
 )
 
 func TestSiteWithPageOutputs(t *testing.T) {

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"regexp"
 
+	"github.com/Azunyan1111/hugo/config"
+	hglob "github.com/Azunyan1111/hugo/hugofs/glob"
 	"github.com/gobwas/glob"
-	"github.com/gohugoio/hugo/config"
-	hglob "github.com/gohugoio/hugo/hugofs/glob"
 	"github.com/mitchellh/mapstructure"
 )
 

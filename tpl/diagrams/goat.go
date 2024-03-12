@@ -19,8 +19,8 @@ import (
 	"io"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/deps"
 	"github.com/bep/goat"
-	"github.com/gohugoio/hugo/deps"
 	"github.com/spf13/cast"
 )
 

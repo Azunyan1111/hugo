@@ -20,11 +20,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/maps"
 
+	"github.com/Azunyan1111/hugo/parser"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
 )
 
 func BenchmarkCascade(b *testing.B) {

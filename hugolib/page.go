@@ -20,30 +20,30 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib/doctree"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/output/layouts"
-	"github.com/gohugoio/hugo/related"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugolib/doctree"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/media"
+	"github.com/Azunyan1111/hugo/output"
+	"github.com/Azunyan1111/hugo/output/layouts"
+	"github.com/Azunyan1111/hugo/related"
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/Azunyan1111/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/tableofcontents"
 
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/Azunyan1111/hugo/tpl"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/source"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/common/collections"
+	"github.com/Azunyan1111/hugo/common/text"
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/resource"
 )
 
 var (

@@ -22,22 +22,22 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/markup/asciidocext"
+	"github.com/Azunyan1111/hugo/markup/rst"
+	"github.com/Azunyan1111/hugo/tpl"
 	"github.com/bep/clocks"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/markup/asciidocext"
-	"github.com/gohugoio/hugo/markup/rst"
-	"github.com/gohugoio/hugo/tpl"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/loggers"
 
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
+	"github.com/Azunyan1111/hugo/deps"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
 )
 
 const (

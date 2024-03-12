@@ -16,8 +16,8 @@ package privacy
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
 )
 
 func TestDecodeConfigFromTOML(t *testing.T) {

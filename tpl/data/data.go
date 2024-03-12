@@ -24,18 +24,18 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config/security"
+	"github.com/Azunyan1111/hugo/cache/filecache"
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config/security"
 
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/Azunyan1111/hugo/common/types"
 
-	"github.com/gohugoio/hugo/common/constants"
+	"github.com/Azunyan1111/hugo/common/constants"
 
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/deps"
 )
 
 // New returns a new instance of the data-namespaced template functions.

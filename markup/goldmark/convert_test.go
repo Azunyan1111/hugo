@@ -21,19 +21,19 @@ import (
 	"github.com/pelletier/go-toml/v2"
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/goldmark"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/markup/converter/hooks"
+	"github.com/Azunyan1111/hugo/markup/goldmark"
 
-	"github.com/gohugoio/hugo/markup/highlight"
+	"github.com/Azunyan1111/hugo/markup/highlight"
 
-	"github.com/gohugoio/hugo/markup/markup_config"
+	"github.com/Azunyan1111/hugo/markup/markup_config"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/maps"
 
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/converter"
 
 	qt "github.com/frankban/quicktest"
 )

@@ -18,11 +18,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/hugofs/glob"
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/hugofs/glob"
+	"github.com/Azunyan1111/hugo/resources/kinds"
 	"github.com/mitchellh/mapstructure"
 )
 

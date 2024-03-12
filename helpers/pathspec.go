@@ -16,11 +16,11 @@ package helpers
 import (
 	"strings"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib/filesystems"
-	"github.com/gohugoio/hugo/hugolib/paths"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugolib/filesystems"
+	"github.com/Azunyan1111/hugo/hugolib/paths"
 )
 
 // PathSpec holds methods that decides how paths in URLs and files in Hugo should look like.

@@ -22,8 +22,8 @@ import (
 	"github.com/alecthomas/chroma/v2/formatters/html"
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/markup/converter/hooks"
 
 	"github.com/mitchellh/mapstructure"
 )

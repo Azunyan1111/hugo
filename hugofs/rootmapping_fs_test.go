@@ -21,11 +21,11 @@ import (
 
 	iofs "io/fs"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/hugofs/glob"
 
+	"github.com/Azunyan1111/hugo/htesting"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/htesting"
 	"github.com/spf13/afero"
 )
 

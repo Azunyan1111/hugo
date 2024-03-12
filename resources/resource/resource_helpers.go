@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 	"github.com/pelletier/go-toml/v2"
 
 	"github.com/spf13/cast"

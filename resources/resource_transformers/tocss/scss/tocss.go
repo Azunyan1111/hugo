@@ -23,15 +23,15 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/media"
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/tocss/internal/sass"
 	"github.com/bep/golibsass/libsass"
 	"github.com/bep/golibsass/libsass/libsasserrors"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/internal/sass"
 )
 
 // Used in tests. This feature requires Hugo to be built with the extended tag.

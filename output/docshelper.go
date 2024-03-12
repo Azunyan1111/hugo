@@ -5,8 +5,8 @@ import (
 
 	//	"fmt"
 
-	"github.com/gohugoio/hugo/docshelper"
-	"github.com/gohugoio/hugo/output/layouts"
+	"github.com/Azunyan1111/hugo/docshelper"
+	"github.com/Azunyan1111/hugo/output/layouts"
 )
 
 // This is is just some helpers used to create some JSON used in the Hugo docs.

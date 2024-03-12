@@ -16,34 +16,34 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/config/security"
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/Azunyan1111/hugo/config/allconfig"
+	"github.com/Azunyan1111/hugo/config/security"
+	"github.com/Azunyan1111/hugo/htesting"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/Azunyan1111/hugo/output"
 
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gohugoio/hugo/parser"
+	"github.com/Azunyan1111/hugo/parser"
 
+	"github.com/Azunyan1111/hugo/common/hexec"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/resources/page"
 	"github.com/fsnotify/fsnotify"
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources/page"
 	"github.com/sanity-io/litter"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
+	"github.com/Azunyan1111/hugo/hugofs"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugofs"
 )
 
 var (

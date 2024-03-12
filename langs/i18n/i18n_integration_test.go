@@ -16,7 +16,7 @@ package i18n_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 )
 
 func TestI18nFromTheme(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"image/color"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	"github.com/makeworld-the-better-one/dither/v2"
 	"github.com/mitchellh/mapstructure"
 

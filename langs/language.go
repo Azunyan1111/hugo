@@ -22,8 +22,8 @@ import (
 	"golang.org/x/text/collate"
 	"golang.org/x/text/language"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/maps"
 	"github.com/gohugoio/locales"
 	translators "github.com/gohugoio/localescompressed"
 )

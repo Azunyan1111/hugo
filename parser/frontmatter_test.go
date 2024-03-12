@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 )
 
 func TestInterfaceToConfig(t *testing.T) {

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/page"
 
 	qt "github.com/frankban/quicktest"
 )

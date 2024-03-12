@@ -23,17 +23,17 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/collections"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/rungroup"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	"github.com/bep/lazycache"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/common/rungroup"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/resources/resource"
 )
 
 const minMaxSize = 10

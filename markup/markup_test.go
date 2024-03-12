@@ -16,10 +16,10 @@ package markup_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/markup"
+	"github.com/Azunyan1111/hugo/markup/converter"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/markup"
-	"github.com/gohugoio/hugo/markup/converter"
 )
 
 func TestConverterRegistry(t *testing.T) {

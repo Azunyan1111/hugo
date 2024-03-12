@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/gohugoio/hugo/compare"
+	"github.com/Azunyan1111/hugo/compare"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/resource"
 )
 
 // Pages is a slice of Page objects. This is the most common list type in Hugo.

@@ -19,8 +19,8 @@ package resources_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/media"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/media"
 )
 
 func TestImageResizeWebP(t *testing.T) {

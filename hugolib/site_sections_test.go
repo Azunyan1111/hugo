@@ -19,11 +19,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
 )
 
 func TestNestedSections(t *testing.T) {

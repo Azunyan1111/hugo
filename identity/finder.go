@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gohugoio/hugo/compare"
+	"github.com/Azunyan1111/hugo/compare"
 )
 
 // NewFinder creates a new Finder.

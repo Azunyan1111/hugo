@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/deps"
 )
 
 const pageCollectionsPageTemplate = `---

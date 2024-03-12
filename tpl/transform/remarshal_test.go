@@ -16,9 +16,9 @@ package transform_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/tpl/transform"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/tpl/transform"
 
 	qt "github.com/frankban/quicktest"
 )

@@ -20,15 +20,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/identity"
 	"github.com/spf13/afero"
 
 	"github.com/evanw/esbuild/pkg/api"
 
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/media"
 	"github.com/mitchellh/mapstructure"
 )
 

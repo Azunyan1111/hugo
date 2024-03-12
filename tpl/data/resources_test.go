@@ -23,17 +23,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/cache/filecache"
+	"github.com/Azunyan1111/hugo/common/loggers"
 
-	"github.com/gohugoio/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/config/testconfig"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/hugofs"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/hugofs"
 	"github.com/spf13/afero"
 )
 

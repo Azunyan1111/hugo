@@ -19,7 +19,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
 	qt "github.com/frankban/quicktest"
 )

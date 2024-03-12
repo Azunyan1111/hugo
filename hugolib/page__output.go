@@ -16,10 +16,10 @@ package hugolib
 import (
 	"fmt"
 
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/output"
+	"github.com/Azunyan1111/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/resource"
 )
 
 func newPageOutput(

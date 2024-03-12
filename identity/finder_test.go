@@ -17,7 +17,7 @@ package identity_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/identity"
 )
 
 func BenchmarkFinder(b *testing.B) {

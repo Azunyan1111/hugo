@@ -17,16 +17,16 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config/privacy"
-	"github.com/gohugoio/hugo/config/services"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config/privacy"
+	"github.com/Azunyan1111/hugo/config/services"
+	"github.com/Azunyan1111/hugo/identity"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/langs"
-	"github.com/gohugoio/hugo/navigation"
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/langs"
+	"github.com/Azunyan1111/hugo/navigation"
 )
 
 // Site represents a site. There can be multiple sites in a multilingual setup.

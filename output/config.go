@@ -19,9 +19,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/media"
 	"github.com/mitchellh/mapstructure"
 )
 

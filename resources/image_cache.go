@@ -17,12 +17,12 @@ import (
 	"image"
 	"io"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/resources/images"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/resources/images"
 
-	"github.com/gohugoio/hugo/cache/dynacache"
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/cache/dynacache"
+	"github.com/Azunyan1111/hugo/cache/filecache"
+	"github.com/Azunyan1111/hugo/helpers"
 )
 
 // ImageCache is a cache for image resources. The backing caches are shared between all sites.

@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config"
 
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/cast"

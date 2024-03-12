@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/Azunyan1111/hugo/common/types"
 
 	"github.com/gobwas/glob"
 	"github.com/spf13/cast"

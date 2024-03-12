@@ -26,13 +26,13 @@ import (
 
 	xmaps "golang.org/x/exp/maps"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/Azunyan1111/hugo/common/collections"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/compare"
+	"github.com/Azunyan1111/hugo/markup/tableofcontents"
 	"github.com/spf13/cast"
 
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/Azunyan1111/hugo/common/types"
 	"github.com/mitchellh/mapstructure"
 )
 

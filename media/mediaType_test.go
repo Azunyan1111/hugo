@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/paths"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/paths"
 )
 
 func TestGetByType(t *testing.T) {

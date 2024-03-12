@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/minifiers"
-	"github.com/gohugoio/hugo/output"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/media"
+	"github.com/Azunyan1111/hugo/minifiers"
+	"github.com/Azunyan1111/hugo/output"
 
 	qt "github.com/frankban/quicktest"
 )

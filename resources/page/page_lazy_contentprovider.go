@@ -17,9 +17,9 @@ import (
 	"context"
 	"html/template"
 
-	"github.com/gohugoio/hugo/lazy"
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/Azunyan1111/hugo/lazy"
+	"github.com/Azunyan1111/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/tableofcontents"
 )
 
 // OutputFormatContentProvider represents the method set that is "outputFormat aware" and that we

@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/fmtsort"
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	"github.com/Azunyan1111/hugo/tpl/internal/go_templates/fmtsort"
+	"github.com/Azunyan1111/hugo/tpl/internal/go_templates/texttemplate/parse"
 )
 
 // maxExecDepth specifies the maximum stack depth of templates within

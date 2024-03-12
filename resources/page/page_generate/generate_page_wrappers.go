@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/gohugoio/hugo/codegen"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/codegen"
+	"github.com/Azunyan1111/hugo/resources/page"
 )
 
 const header = `// Copyright 2019 The Hugo Authors. All rights reserved.
@@ -76,7 +76,7 @@ func generateMarshalJSON(c *codegen.Inspector) error {
 
 	marshalJSON, pkgImports := methods.ToMarshalJSON(
 		"Page",
-		"github.com/gohugoio/hugo/resources/page",
+		"github.com/Azunyan1111/hugo/resources/page",
 		// Exclusion regexps. Matches method names.
 		`\bPage\b`,
 	)

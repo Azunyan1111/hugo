@@ -17,13 +17,13 @@ import (
 	"errors"
 	"fmt"
 
-	htmltemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/htmltemplate"
-	texttemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	htmltemplate "github.com/Azunyan1111/hugo/tpl/internal/go_templates/htmltemplate"
+	texttemplate "github.com/Azunyan1111/hugo/tpl/internal/go_templates/texttemplate"
 
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate/parse"
+	"github.com/Azunyan1111/hugo/tpl/internal/go_templates/texttemplate/parse"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/tpl"
 	"github.com/mitchellh/mapstructure"
 )
 

@@ -17,10 +17,10 @@
 package scss
 
 import (
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	"github.com/bep/golibsass/libsass"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/internal"
-	"github.com/gohugoio/hugo/resources/resource"
 )
 
 type options struct {

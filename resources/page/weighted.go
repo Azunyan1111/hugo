@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gohugoio/hugo/common/collections"
+	"github.com/Azunyan1111/hugo/common/collections"
 )
 
 var _ collections.Slicer = WeightedPage{}

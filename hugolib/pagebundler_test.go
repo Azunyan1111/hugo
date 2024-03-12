@@ -19,20 +19,20 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/loggers"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/Azunyan1111/hugo/htesting"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/deps"
 
 	qt "github.com/frankban/quicktest"
 )

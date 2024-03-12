@@ -18,15 +18,15 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/common/paths"
 	"github.com/bep/gitmap"
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/common/hugio"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 )
 
 // File describes a source file.

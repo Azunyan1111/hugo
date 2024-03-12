@@ -16,9 +16,9 @@ package babel_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/hugolib"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugolib"
 )
 
 func TestTransformBabel(t *testing.T) {

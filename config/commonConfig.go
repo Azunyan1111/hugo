@@ -19,12 +19,12 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/types"
 	"github.com/bep/logg"
 	"github.com/gobwas/glob"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/types"
 
-	"github.com/gohugoio/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/herrors"
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/cast"
 )

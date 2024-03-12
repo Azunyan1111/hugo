@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/parser/metadecoders"
 )
 
 func BenchmarkParse(b *testing.B) {

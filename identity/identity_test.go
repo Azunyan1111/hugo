@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/identity/identitytesting"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/identity/identitytesting"
 )
 
 func BenchmarkIdentityManager(b *testing.B) {

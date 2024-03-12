@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/para"
+	"github.com/Azunyan1111/hugo/hugolib/doctree"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/para"
-	"github.com/gohugoio/hugo/hugolib/doctree"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -18,11 +18,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/htesting/hqt"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/htesting/hqt"
+	"github.com/Azunyan1111/hugo/identity"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
 	"github.com/spf13/afero"
 

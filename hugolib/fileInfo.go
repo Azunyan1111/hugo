@@ -18,7 +18,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/source"
 )
 
 type fileInfo struct {

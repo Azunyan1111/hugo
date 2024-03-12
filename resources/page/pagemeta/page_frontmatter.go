@@ -17,15 +17,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 	"github.com/spf13/cast"
 )
 

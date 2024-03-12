@@ -16,12 +16,12 @@ package resource
 import (
 	"context"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/langs"
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/langs"
+	"github.com/Azunyan1111/hugo/media"
 
-	"github.com/gohugoio/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/common/hugio"
 )
 
 var (

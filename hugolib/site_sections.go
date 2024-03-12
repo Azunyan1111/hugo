@@ -14,7 +14,7 @@
 package hugolib
 
 import (
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/page"
 )
 
 // Sections returns the top level sections.

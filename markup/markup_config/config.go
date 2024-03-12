@@ -14,12 +14,12 @@
 package markup_config
 
 import (
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/markup/asciidocext/asciidocext_config"
-	"github.com/gohugoio/hugo/markup/goldmark/goldmark_config"
-	"github.com/gohugoio/hugo/markup/highlight"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/markup/asciidocext/asciidocext_config"
+	"github.com/Azunyan1111/hugo/markup/goldmark/goldmark_config"
+	"github.com/Azunyan1111/hugo/markup/highlight"
+	"github.com/Azunyan1111/hugo/markup/tableofcontents"
 	"github.com/mitchellh/mapstructure"
 )
 

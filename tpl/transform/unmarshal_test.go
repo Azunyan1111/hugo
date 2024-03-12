@@ -20,13 +20,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/tpl/transform"
+	"github.com/Azunyan1111/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/tpl/transform"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/media"
 
 	qt "github.com/frankban/quicktest"
 )

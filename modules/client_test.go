@@ -21,13 +21,13 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/config/security"
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/Azunyan1111/hugo/common/hexec"
+	"github.com/Azunyan1111/hugo/config/security"
+	"github.com/Azunyan1111/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/htesting"
+	"github.com/Azunyan1111/hugo/htesting"
 
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugofs"
 
 	qt "github.com/frankban/quicktest"
 )

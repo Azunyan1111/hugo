@@ -17,10 +17,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/source"
 	"github.com/bep/gitmap"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/resources/page"
-	"github.com/gohugoio/hugo/source"
 )
 
 type gitInfo struct {

@@ -19,19 +19,19 @@ import (
 	"context"
 	"html/template"
 
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/Azunyan1111/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/tableofcontents"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/compare"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/compare"
 
-	"github.com/gohugoio/hugo/navigation"
-	"github.com/gohugoio/hugo/related"
-	"github.com/gohugoio/hugo/resources/resource"
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/navigation"
+	"github.com/Azunyan1111/hugo/related"
+	"github.com/Azunyan1111/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/source"
 )
 
 // Clear clears any global package state.

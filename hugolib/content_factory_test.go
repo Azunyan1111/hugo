@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/hugofs"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugofs"
 )
 
 func TestContentFactory(t *testing.T) {

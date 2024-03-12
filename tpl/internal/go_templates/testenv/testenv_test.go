@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/testenv"
+	"github.com/Azunyan1111/hugo/tpl/internal/go_templates/testenv"
 )
 
 func TestGoToolLocation(t *testing.T) {

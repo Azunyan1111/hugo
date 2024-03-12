@@ -14,10 +14,10 @@
 package minifier
 
 import (
-	"github.com/gohugoio/hugo/minifiers"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/internal"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/minifiers"
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/resources/resource"
 )
 
 // Client for minification of Resource objects. Supported minifiers are:

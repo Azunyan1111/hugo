@@ -19,7 +19,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 
 	"github.com/spf13/cast"
 )

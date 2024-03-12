@@ -22,14 +22,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/publisher"
 	"github.com/gobuffalo/flect"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/publisher"
 
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
 )
 
 func TestDraftAndFutureRender(t *testing.T) {

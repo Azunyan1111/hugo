@@ -24,8 +24,8 @@ import (
 	"github.com/spf13/cast"
 	"github.com/yuin/goldmark/util"
 
-	"github.com/gohugoio/hugo/common/hugo"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/common/hugo"
+	"github.com/Azunyan1111/hugo/deps"
 )
 
 // New returns a new instance of the debug-namespaced template functions.

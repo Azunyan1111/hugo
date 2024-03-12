@@ -19,8 +19,8 @@ import (
 	"image"
 	"sync"
 
+	"github.com/Azunyan1111/hugo/resources/images"
 	"github.com/bep/overlayfs"
-	"github.com/gohugoio/hugo/resources/images"
 
 	// Importing image codecs for image.DecodeConfig
 	_ "image/gif"
@@ -30,7 +30,7 @@ import (
 	// Import webp codec
 	_ "golang.org/x/image/webp"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/deps"
 	"github.com/spf13/afero"
 	"github.com/spf13/cast"
 )

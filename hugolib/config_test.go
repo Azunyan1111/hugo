@@ -20,12 +20,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/allconfig"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/allconfig"
 
+	"github.com/Azunyan1111/hugo/common/maps"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/maps"
 	"github.com/spf13/afero"
 )
 

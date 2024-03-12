@@ -20,8 +20,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Azunyan1111/hugo/resources/resource"
 	radix "github.com/armon/go-radix"
-	"github.com/gohugoio/hugo/resources/resource"
 )
 
 type (

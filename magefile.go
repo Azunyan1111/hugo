@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gohugoio/hugo/codegen"
-	"github.com/gohugoio/hugo/resources/page/page_generate"
+	"github.com/Azunyan1111/hugo/codegen"
+	"github.com/Azunyan1111/hugo/resources/page/page_generate"
 
 	"github.com/magefile/mage/mg"
 	"github.com/magefile/mage/sh"

@@ -28,20 +28,20 @@ import (
 
 	color_extractor "github.com/marekm4/color-extractor"
 
-	"github.com/gohugoio/hugo/cache/filecache"
-	"github.com/gohugoio/hugo/common/hstrings"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/cache/filecache"
+	"github.com/Azunyan1111/hugo/common/hstrings"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/identity"
 
 	"github.com/disintegration/gift"
 
-	"github.com/gohugoio/hugo/resources/images/exif"
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/resources/images/exif"
+	"github.com/Azunyan1111/hugo/resources/internal"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources/images"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/resources/images"
 
 	// Blind import for image.Decode
 	_ "golang.org/x/image/webp"

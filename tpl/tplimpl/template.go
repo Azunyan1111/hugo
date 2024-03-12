@@ -30,24 +30,24 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/output/layouts"
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/output/layouts"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/Azunyan1111/hugo/output"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/deps"
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/hugofs"
 
-	htmltemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/htmltemplate"
-	texttemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	htmltemplate "github.com/Azunyan1111/hugo/tpl/internal/go_templates/htmltemplate"
+	texttemplate "github.com/Azunyan1111/hugo/tpl/internal/go_templates/texttemplate"
 
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/tpl"
 )
 
 const (

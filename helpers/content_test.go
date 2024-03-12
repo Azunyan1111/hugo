@@ -19,9 +19,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/helpers"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/helpers"
 )
 
 func TestTrimShortHTML(t *testing.T) {

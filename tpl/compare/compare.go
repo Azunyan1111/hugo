@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/langs"
+	"github.com/Azunyan1111/hugo/compare"
+	"github.com/Azunyan1111/hugo/langs"
 
-	"github.com/gohugoio/hugo/common/hreflect"
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/Azunyan1111/hugo/common/hreflect"
+	"github.com/Azunyan1111/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/types"
 )
 
 // New returns a new instance of the compare-namespaced template functions.

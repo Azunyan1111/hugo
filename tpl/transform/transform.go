@@ -22,15 +22,15 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/gohugoio/hugo/cache/dynacache"
-	"github.com/gohugoio/hugo/markup/converter/hooks"
-	"github.com/gohugoio/hugo/markup/highlight"
-	"github.com/gohugoio/hugo/markup/highlight/chromalexers"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/Azunyan1111/hugo/cache/dynacache"
+	"github.com/Azunyan1111/hugo/markup/converter/hooks"
+	"github.com/Azunyan1111/hugo/markup/highlight"
+	"github.com/Azunyan1111/hugo/markup/highlight/chromalexers"
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/tpl"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/helpers"
 	"github.com/spf13/cast"
 )
 

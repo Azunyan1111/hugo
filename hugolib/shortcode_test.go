@@ -21,10 +21,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/resources/kinds"
 
-	"github.com/gohugoio/hugo/parser/pageparser"
+	"github.com/Azunyan1111/hugo/parser/pageparser"
 
 	qt "github.com/frankban/quicktest"
 )

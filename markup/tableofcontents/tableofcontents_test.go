@@ -16,8 +16,8 @@ package tableofcontents
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/collections"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/collections"
 )
 
 var newTestTocBuilder = func() Builder {

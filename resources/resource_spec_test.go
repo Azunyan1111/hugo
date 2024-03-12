@@ -16,10 +16,10 @@ package resources_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/resources"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/resources"
 )
 
 func TestNewResource(t *testing.T) {

@@ -19,19 +19,19 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/config/testconfig"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/config/testconfig"
 
-	"github.com/gohugoio/hugo/tpl/tplimpl"
+	"github.com/Azunyan1111/hugo/tpl/tplimpl"
 
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/page"
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/deps"
 
+	"github.com/Azunyan1111/hugo/config"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
 )
 
 type i18nTest struct {

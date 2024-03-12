@@ -19,11 +19,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/create"
+	"github.com/Azunyan1111/hugo/create/skeletons"
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/create"
-	"github.com/gohugoio/hugo/create/skeletons"
 	"github.com/spf13/cobra"
 )
 

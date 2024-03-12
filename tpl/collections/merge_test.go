@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/parser"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 
 	qt "github.com/frankban/quicktest"
 )

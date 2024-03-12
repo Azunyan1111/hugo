@@ -26,38 +26,38 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/hugolib/doctree"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/htime"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/hugolib/doctree"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/paths"
 
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/identity"
 
-	"github.com/gohugoio/hugo/markup/converter/hooks"
+	"github.com/Azunyan1111/hugo/markup/converter/hooks"
 
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/converter"
 
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/Azunyan1111/hugo/common/text"
 
-	"github.com/gohugoio/hugo/publisher"
+	"github.com/Azunyan1111/hugo/publisher"
 
-	"github.com/gohugoio/hugo/langs"
+	"github.com/Azunyan1111/hugo/langs"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/lazy"
+	"github.com/Azunyan1111/hugo/lazy"
 
+	bp "github.com/Azunyan1111/hugo/bufferpool"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/navigation"
+	"github.com/Azunyan1111/hugo/output"
+	"github.com/Azunyan1111/hugo/tpl"
 	"github.com/fsnotify/fsnotify"
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/navigation"
-	"github.com/gohugoio/hugo/output"
-	"github.com/gohugoio/hugo/tpl"
 )
 
 func (s *Site) Taxonomies() page.TaxonomyList {

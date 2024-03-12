@@ -18,12 +18,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/internal"
-	"github.com/gohugoio/hugo/resources/resource"
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/tpl"
 )
 
 // Client contains methods to perform template processing of Resource objects.

@@ -17,11 +17,11 @@ package testconfig
 import (
 	_ "unsafe"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/allconfig"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/hugofs"
 	toml "github.com/pelletier/go-toml/v2"
 	"github.com/spf13/afero"
 )

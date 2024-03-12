@@ -7,17 +7,17 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/resources"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/resources"
 
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/resources/images"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/resources/images"
-	"github.com/gohugoio/hugo/resources/resource"
 	"github.com/spf13/afero"
 )
 

@@ -16,7 +16,7 @@ package templates_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 )
 
 func TestExecuteAsTemplateMultipleLanguages(t *testing.T) {

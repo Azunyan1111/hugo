@@ -18,12 +18,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib/filesystems"
-	"github.com/gohugoio/hugo/hugolib/paths"
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugolib/filesystems"
+	"github.com/Azunyan1111/hugo/hugolib/paths"
+	"github.com/Azunyan1111/hugo/media"
 
 	"github.com/spf13/afero"
 

@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/helpers"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/helpers"
 	"github.com/spf13/afero"
 )
 

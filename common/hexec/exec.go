@@ -24,9 +24,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/security"
 	"github.com/cli/safeexec"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/security"
 )
 
 var WithDir = func(dir string) func(c *commandeer) {

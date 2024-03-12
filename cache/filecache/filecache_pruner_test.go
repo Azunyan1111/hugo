@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/cache/filecache"
+	"github.com/Azunyan1111/hugo/cache/filecache"
 	"github.com/spf13/afero"
 
 	qt "github.com/frankban/quicktest"

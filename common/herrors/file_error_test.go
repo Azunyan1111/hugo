@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/Azunyan1111/hugo/common/text"
 
 	qt "github.com/frankban/quicktest"
 )

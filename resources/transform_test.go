@@ -24,21 +24,21 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/media"
+	"github.com/Azunyan1111/hugo/resources"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/hugio"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/hugio"
+	"github.com/Azunyan1111/hugo/hugofs"
 
-	"github.com/gohugoio/hugo/resources/images"
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/resources/images"
+	"github.com/Azunyan1111/hugo/resources/internal"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	"github.com/spf13/afero"
 
 	qt "github.com/frankban/quicktest"

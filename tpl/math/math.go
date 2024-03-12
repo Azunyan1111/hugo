@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	_math "github.com/gohugoio/hugo/common/math"
+	_math "github.com/Azunyan1111/hugo/common/math"
 	"github.com/spf13/cast"
 )
 

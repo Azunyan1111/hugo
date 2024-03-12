@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/Azunyan1111/hugo/htesting/hqt"
 
+	"github.com/Azunyan1111/hugo/common/hugo"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/hugo"
 	"github.com/spf13/cast"
 )
 

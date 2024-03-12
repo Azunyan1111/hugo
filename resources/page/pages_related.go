@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gohugoio/hugo/common/para"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/related"
+	"github.com/Azunyan1111/hugo/common/para"
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/related"
 	"github.com/mitchellh/mapstructure"
 	"github.com/spf13/cast"
 )

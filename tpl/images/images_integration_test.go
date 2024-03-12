@@ -16,7 +16,7 @@ package images_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 )
 
 func TestImageConfigFromModule(t *testing.T) {

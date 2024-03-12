@@ -18,8 +18,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gohugoio/hugo/compare"
-	"github.com/gohugoio/hugo/langs"
+	"github.com/Azunyan1111/hugo/compare"
+	"github.com/Azunyan1111/hugo/langs"
 )
 
 // The TaxonomyList is a list of all taxonomies and their values

@@ -25,18 +25,18 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/media"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/media"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/text"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/text"
 
-	"github.com/gohugoio/hugo/hugolib/filesystems"
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/hugolib/filesystems"
+	"github.com/Azunyan1111/hugo/resources/internal"
 
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	"github.com/evanw/esbuild/pkg/api"
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
 )
 
 // Client context for ESBuild.

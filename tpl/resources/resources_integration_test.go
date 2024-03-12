@@ -16,8 +16,8 @@ package resources_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/hugolib"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugolib"
 )
 
 func TestCopy(t *testing.T) {

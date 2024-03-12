@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 )
 
 func TestGetRemoteHead(t *testing.T) {

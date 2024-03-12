@@ -18,9 +18,9 @@ import (
 	"io"
 	"os"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/hugofs"
+	bp "github.com/Azunyan1111/hugo/bufferpool"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/hugofs"
 )
 
 // Transformer is the func that needs to be implemented by a transformation step.

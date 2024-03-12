@@ -34,12 +34,12 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/deploy/deployconfig"
+	"github.com/Azunyan1111/hugo/media"
 	"github.com/dustin/go-humanize"
 	"github.com/gobwas/glob"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/deploy/deployconfig"
-	"github.com/gohugoio/hugo/media"
 	"github.com/spf13/afero"
 	"golang.org/x/text/unicode/norm"
 

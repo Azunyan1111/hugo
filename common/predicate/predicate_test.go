@@ -16,8 +16,8 @@ package predicate_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/predicate"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/predicate"
 )
 
 func TestAdd(t *testing.T) {

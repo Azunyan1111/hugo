@@ -3,8 +3,8 @@ package lang
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/deps"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
 	translators "github.com/gohugoio/localescompressed"
 )
 

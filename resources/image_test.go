@@ -30,22 +30,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/resources/images/webp"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/resources/images/webp"
 
-	"github.com/gohugoio/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/paths"
 
 	"github.com/spf13/afero"
 
 	"github.com/disintegration/gift"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 
-	"github.com/gohugoio/hugo/media"
-	"github.com/gohugoio/hugo/resources/images"
+	"github.com/Azunyan1111/hugo/media"
+	"github.com/Azunyan1111/hugo/resources/images"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/Azunyan1111/hugo/htesting/hqt"
 
 	qt "github.com/frankban/quicktest"
 )

@@ -16,11 +16,11 @@ package rst
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/common/hexec"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/config/security"
+	"github.com/Azunyan1111/hugo/common/hexec"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/config/security"
 
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/converter"
 
 	qt "github.com/frankban/quicktest"
 )

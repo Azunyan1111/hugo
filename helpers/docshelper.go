@@ -3,8 +3,8 @@ package helpers
 import (
 	"sort"
 
+	"github.com/Azunyan1111/hugo/docshelper"
 	"github.com/alecthomas/chroma/v2/lexers"
-	"github.com/gohugoio/hugo/docshelper"
 )
 
 // This is is just some helpers used to create some JSON used in the Hugo docs.

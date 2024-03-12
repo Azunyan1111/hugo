@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/tpl"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugolib"
-	"github.com/gohugoio/hugo/tpl"
 )
 
 func TestPrintUnusedTemplates(t *testing.T) {

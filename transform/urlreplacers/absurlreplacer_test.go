@@ -17,10 +17,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
+	bp "github.com/Azunyan1111/hugo/bufferpool"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/transform"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/transform"
 )
 
 const (

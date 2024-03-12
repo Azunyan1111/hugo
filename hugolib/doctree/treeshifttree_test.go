@@ -16,8 +16,8 @@ package doctree_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/hugolib/doctree"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugolib/doctree"
 )
 
 func TestTreeShiftTree(t *testing.T) {

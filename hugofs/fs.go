@@ -19,9 +19,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/config"
 	"github.com/bep/overlayfs"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/config"
 	"github.com/spf13/afero"
 )
 

@@ -17,9 +17,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/config/testconfig"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/config/testconfig"
 )
 
 func newNs() *Namespace {

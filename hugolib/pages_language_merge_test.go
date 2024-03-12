@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/resources/resource"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/resources/resource"
 )
 
 // TODO(bep) move and rewrite in resource/page.

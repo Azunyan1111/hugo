@@ -16,7 +16,7 @@ package tplimpl
 import (
 	"strings"
 
-	"github.com/gohugoio/hugo/tpl"
+	"github.com/Azunyan1111/hugo/tpl"
 )
 
 // Currently lang, outFormat, suffix

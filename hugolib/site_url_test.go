@@ -18,9 +18,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/resources/kinds"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources/kinds"
 )
 
 func TestUglyURLsPerSection(t *testing.T) {

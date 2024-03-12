@@ -23,11 +23,11 @@ import (
 	"hash"
 	"io"
 
-	"github.com/gohugoio/hugo/common/constants"
-	"github.com/gohugoio/hugo/resources/internal"
+	"github.com/Azunyan1111/hugo/common/constants"
+	"github.com/Azunyan1111/hugo/resources/internal"
 
-	"github.com/gohugoio/hugo/resources"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources"
+	"github.com/Azunyan1111/hugo/resources/resource"
 )
 
 const defaultHashAlgo = "sha256"

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/herrors"
 	"github.com/fsnotify/fsnotify"
-	"github.com/gohugoio/hugo/common/herrors"
 )
 
 var (

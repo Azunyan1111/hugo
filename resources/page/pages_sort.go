@@ -17,12 +17,12 @@ import (
 	"context"
 	"sort"
 
-	"github.com/gohugoio/hugo/common/collections"
-	"github.com/gohugoio/hugo/langs"
+	"github.com/Azunyan1111/hugo/common/collections"
+	"github.com/Azunyan1111/hugo/langs"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
-	"github.com/gohugoio/hugo/compare"
+	"github.com/Azunyan1111/hugo/compare"
 	"github.com/spf13/cast"
 )
 

@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
 )
 
 func TestURLize(t *testing.T) {

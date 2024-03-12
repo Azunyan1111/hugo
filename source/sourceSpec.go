@@ -18,11 +18,11 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/Azunyan1111/hugo/hugofs/glob"
 
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/helpers"
+	"github.com/Azunyan1111/hugo/helpers"
 )
 
 // SourceSpec abstracts language-specific file creation.

@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/commands"
 	"github.com/bep/helpers/envhelpers"
-	"github.com/gohugoio/hugo/commands"
 	"github.com/rogpeppe/go-internal/testscript"
 )
 

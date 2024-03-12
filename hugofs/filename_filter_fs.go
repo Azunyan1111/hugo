@@ -20,7 +20,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/gohugoio/hugo/hugofs/glob"
+	"github.com/Azunyan1111/hugo/hugofs/glob"
 	"github.com/spf13/afero"
 )
 

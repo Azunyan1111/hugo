@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/herrors"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/herrors"
 )
 
 type testSiteBuildErrorAsserter struct {

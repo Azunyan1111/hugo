@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/terminal"
 	"github.com/bep/logg"
 	"github.com/bep/logg/handlers/multi"
-	"github.com/gohugoio/hugo/common/terminal"
 )
 
 var (

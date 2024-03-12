@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 
-	"github.com/gohugoio/hugo/tpl/internal"
+	"github.com/Azunyan1111/hugo/tpl/internal"
 )
 
 func TestTemplateFuncsExamples(t *testing.T) {

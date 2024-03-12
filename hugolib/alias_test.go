@@ -19,8 +19,8 @@ import (
 	"runtime"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/loggers"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/loggers"
 )
 
 const pageWithAlias = `---

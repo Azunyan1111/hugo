@@ -27,19 +27,19 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/types"
 
-	"github.com/gohugoio/hugo/parser/pageparser"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/parser/pageparser"
+	"github.com/Azunyan1111/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/common/text"
-	"github.com/gohugoio/hugo/common/urls"
-	"github.com/gohugoio/hugo/output"
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/common/text"
+	"github.com/Azunyan1111/hugo/common/urls"
+	"github.com/Azunyan1111/hugo/output"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/tpl"
+	bp "github.com/Azunyan1111/hugo/bufferpool"
+	"github.com/Azunyan1111/hugo/tpl"
 )
 
 var (

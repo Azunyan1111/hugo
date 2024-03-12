@@ -16,7 +16,7 @@ package markup_config
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 
 	qt "github.com/frankban/quicktest"
 )

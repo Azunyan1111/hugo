@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/resource"
 	"github.com/google/go-cmp/cmp"
 
 	qt "github.com/frankban/quicktest"

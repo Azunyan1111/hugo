@@ -6,13 +6,13 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/resources/kinds"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/resources/kinds"
 
-	"github.com/gohugoio/hugo/helpers"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/helpers"
+	"github.com/Azunyan1111/hugo/hugofs"
 	"github.com/spf13/afero"
 )
 

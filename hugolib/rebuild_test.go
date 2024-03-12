@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/tocss/dartsass"
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/tocss/scss"
 	"github.com/fortytw2/leaktest"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/dartsass"
-	"github.com/gohugoio/hugo/resources/resource_transformers/tocss/scss"
 )
 
 const rebuildFilesSimple = `

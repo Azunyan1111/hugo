@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gohugoio/hugo/htesting/hqt"
+	"github.com/Azunyan1111/hugo/htesting/hqt"
 
-	"github.com/gohugoio/hugo/config"
+	"github.com/Azunyan1111/hugo/config"
 
 	qt "github.com/frankban/quicktest"
 )

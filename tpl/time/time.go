@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gohugoio/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/htime"
 
 	"github.com/spf13/cast"
 )

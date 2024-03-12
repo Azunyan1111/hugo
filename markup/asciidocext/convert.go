@@ -17,9 +17,9 @@
 package asciidocext
 
 import (
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/markup/asciidocext/internal"
-	"github.com/gohugoio/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/markup/asciidocext/internal"
+	"github.com/Azunyan1111/hugo/markup/converter"
 )
 
 // Provider is the package entry point.

@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/hstrings"
+	"github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/common/rungroup"
 	"github.com/bep/logg"
-	"github.com/gohugoio/hugo/common/hstrings"
-	"github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/common/rungroup"
 	"github.com/spf13/afero"
 
-	"github.com/gohugoio/hugo/source"
+	"github.com/Azunyan1111/hugo/source"
 
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/hugofs"
 )
 
 func newPagesCollector(

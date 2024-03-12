@@ -22,15 +22,15 @@ import (
 	"strings"
 	"unicode"
 
-	bp "github.com/gohugoio/hugo/bufferpool"
-	"github.com/gohugoio/hugo/common/hcontext"
-	"github.com/gohugoio/hugo/identity"
-	"github.com/gohugoio/hugo/output/layouts"
+	bp "github.com/Azunyan1111/hugo/bufferpool"
+	"github.com/Azunyan1111/hugo/common/hcontext"
+	"github.com/Azunyan1111/hugo/identity"
+	"github.com/Azunyan1111/hugo/output/layouts"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/Azunyan1111/hugo/output"
 
-	htmltemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/htmltemplate"
-	texttemplate "github.com/gohugoio/hugo/tpl/internal/go_templates/texttemplate"
+	htmltemplate "github.com/Azunyan1111/hugo/tpl/internal/go_templates/htmltemplate"
+	texttemplate "github.com/Azunyan1111/hugo/tpl/internal/go_templates/texttemplate"
 )
 
 // TemplateManager manages the collection of templates.

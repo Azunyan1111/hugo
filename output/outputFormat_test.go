@@ -17,8 +17,8 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/media"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/media"
 )
 
 func TestDefaultTypes(t *testing.T) {

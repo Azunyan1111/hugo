@@ -16,7 +16,7 @@ package paths_test
 import (
 	"testing"
 
-	"github.com/gohugoio/hugo/hugolib"
+	"github.com/Azunyan1111/hugo/hugolib"
 )
 
 func TestRemovePathAccents(t *testing.T) {

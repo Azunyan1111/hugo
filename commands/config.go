@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Azunyan1111/hugo/common/maps"
+	"github.com/Azunyan1111/hugo/config/allconfig"
+	"github.com/Azunyan1111/hugo/modules"
+	"github.com/Azunyan1111/hugo/parser"
+	"github.com/Azunyan1111/hugo/parser/metadecoders"
 	"github.com/bep/simplecobra"
-	"github.com/gohugoio/hugo/common/maps"
-	"github.com/gohugoio/hugo/config/allconfig"
-	"github.com/gohugoio/hugo/modules"
-	"github.com/gohugoio/hugo/parser"
-	"github.com/gohugoio/hugo/parser/metadecoders"
 )
 
 // newConfigCommand creates a new config command and its subcommands.

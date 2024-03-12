@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/gohugoio/hugo/common/urls"
-	"github.com/gohugoio/hugo/deps"
+	"github.com/Azunyan1111/hugo/common/urls"
+	"github.com/Azunyan1111/hugo/deps"
 	"github.com/spf13/cast"
 )
 

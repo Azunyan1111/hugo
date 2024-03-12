@@ -20,9 +20,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gohugoio/hugo/common/types"
-	"github.com/gohugoio/hugo/hugofs/files"
-	"github.com/gohugoio/hugo/identity"
+	"github.com/Azunyan1111/hugo/common/types"
+	"github.com/Azunyan1111/hugo/hugofs/files"
+	"github.com/Azunyan1111/hugo/identity"
 )
 
 var defaultPathParser PathParser

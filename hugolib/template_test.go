@@ -18,12 +18,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/config/allconfig"
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/config/allconfig"
 
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/hugofs"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/hugofs"
 )
 
 func TestTemplateLookupOrder(t *testing.T) {

@@ -17,8 +17,8 @@ package highlight
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/config"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/config"
 )
 
 func TestConfig(t *testing.T) {

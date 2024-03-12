@@ -20,7 +20,7 @@ import (
 
 	qt "github.com/frankban/quicktest"
 
-	"github.com/gohugoio/hugo/common/htime"
+	"github.com/Azunyan1111/hugo/common/htime"
 	translators "github.com/gohugoio/localescompressed"
 )
 

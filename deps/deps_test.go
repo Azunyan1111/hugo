@@ -16,8 +16,8 @@ package deps_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/deps"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/deps"
 )
 
 func TestBuildFlags(t *testing.T) {

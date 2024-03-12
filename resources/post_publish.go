@@ -14,8 +14,8 @@
 package resources
 
 import (
-	"github.com/gohugoio/hugo/resources/postpub"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/resources/postpub"
+	"github.com/Azunyan1111/hugo/resources/resource"
 )
 
 type transformationKeyer interface {

@@ -9,7 +9,7 @@ package template_test
 
 import (
 	"bytes"
-	"github.com/gohugoio/hugo/tpl/internal/go_templates/testenv"
+	"github.com/Azunyan1111/hugo/tpl/internal/go_templates/testenv"
 	"os"
 	"os/exec"
 	"path/filepath"

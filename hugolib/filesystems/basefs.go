@@ -23,24 +23,24 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Azunyan1111/hugo/config"
+	"github.com/Azunyan1111/hugo/htesting"
+	"github.com/Azunyan1111/hugo/hugofs/glob"
 	"github.com/bep/overlayfs"
-	"github.com/gohugoio/hugo/config"
-	"github.com/gohugoio/hugo/htesting"
-	"github.com/gohugoio/hugo/hugofs/glob"
 
-	"github.com/gohugoio/hugo/common/herrors"
-	"github.com/gohugoio/hugo/common/loggers"
-	"github.com/gohugoio/hugo/common/types"
+	"github.com/Azunyan1111/hugo/common/herrors"
+	"github.com/Azunyan1111/hugo/common/loggers"
+	"github.com/Azunyan1111/hugo/common/types"
 
 	"github.com/rogpeppe/go-internal/lockedfile"
 
-	"github.com/gohugoio/hugo/hugofs/files"
+	"github.com/Azunyan1111/hugo/hugofs/files"
 
-	"github.com/gohugoio/hugo/modules"
+	"github.com/Azunyan1111/hugo/modules"
 
-	hpaths "github.com/gohugoio/hugo/common/paths"
-	"github.com/gohugoio/hugo/hugofs"
-	"github.com/gohugoio/hugo/hugolib/paths"
+	hpaths "github.com/Azunyan1111/hugo/common/paths"
+	"github.com/Azunyan1111/hugo/hugofs"
+	"github.com/Azunyan1111/hugo/hugolib/paths"
 	"github.com/spf13/afero"
 )
 

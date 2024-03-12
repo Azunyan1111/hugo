@@ -17,11 +17,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gohugoio/hugo/config/testconfig"
-	"github.com/gohugoio/hugo/resources/resource"
+	"github.com/Azunyan1111/hugo/config/testconfig"
+	"github.com/Azunyan1111/hugo/resources/resource"
 
+	"github.com/Azunyan1111/hugo/resources/resource_transformers/htesting"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/resources/resource_transformers/htesting"
 )
 
 func TestHashFromAlgo(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Azunyan1111/hugo/htesting"
 	qt "github.com/frankban/quicktest"
 	"github.com/fsnotify/fsnotify"
-	"github.com/gohugoio/hugo/htesting"
 )
 
 const (

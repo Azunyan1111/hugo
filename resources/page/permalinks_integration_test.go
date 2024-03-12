@@ -16,9 +16,9 @@ package page_test
 import (
 	"testing"
 
+	"github.com/Azunyan1111/hugo/hugolib"
 	"github.com/bep/logg"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/hugolib"
 )
 
 func TestPermalinks(t *testing.T) {

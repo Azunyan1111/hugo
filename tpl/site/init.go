@@ -17,10 +17,10 @@ package site
 import (
 	"context"
 
-	"github.com/gohugoio/hugo/deps"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/deps"
+	"github.com/Azunyan1111/hugo/resources/page"
 
-	"github.com/gohugoio/hugo/tpl/internal"
+	"github.com/Azunyan1111/hugo/tpl/internal"
 )
 
 const name = "site"

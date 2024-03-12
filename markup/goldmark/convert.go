@@ -20,11 +20,11 @@ import (
 	"github.com/gohugoio/hugo-goldmark-extensions/passthrough"
 	"github.com/yuin/goldmark/util"
 
-	"github.com/gohugoio/hugo/markup/goldmark/codeblocks"
-	"github.com/gohugoio/hugo/markup/goldmark/goldmark_config"
-	"github.com/gohugoio/hugo/markup/goldmark/images"
-	"github.com/gohugoio/hugo/markup/goldmark/internal/extensions/attributes"
-	"github.com/gohugoio/hugo/markup/goldmark/internal/render"
+	"github.com/Azunyan1111/hugo/markup/goldmark/codeblocks"
+	"github.com/Azunyan1111/hugo/markup/goldmark/goldmark_config"
+	"github.com/Azunyan1111/hugo/markup/goldmark/images"
+	"github.com/Azunyan1111/hugo/markup/goldmark/internal/extensions/attributes"
+	"github.com/Azunyan1111/hugo/markup/goldmark/internal/render"
 
 	"github.com/yuin/goldmark"
 	emoji "github.com/yuin/goldmark-emoji"
@@ -35,8 +35,8 @@ import (
 	"github.com/yuin/goldmark/renderer/html"
 	"github.com/yuin/goldmark/text"
 
-	"github.com/gohugoio/hugo/markup/converter"
-	"github.com/gohugoio/hugo/markup/tableofcontents"
+	"github.com/Azunyan1111/hugo/markup/converter"
+	"github.com/Azunyan1111/hugo/markup/tableofcontents"
 )
 
 const (

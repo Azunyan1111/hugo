@@ -17,8 +17,8 @@ import (
 	"image"
 	"image/draw"
 
+	"github.com/Azunyan1111/hugo/resources/images/exif"
 	"github.com/disintegration/gift"
-	"github.com/gohugoio/hugo/resources/images/exif"
 )
 
 var _ gift.Filter = (*autoOrientFilter)(nil)

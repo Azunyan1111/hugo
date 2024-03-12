@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Azunyan1111/hugo/common/hreflect"
 	qt "github.com/frankban/quicktest"
-	"github.com/gohugoio/hugo/common/hreflect"
 )
 
 type TestStruct struct {

@@ -19,8 +19,8 @@ import (
 	"io"
 	"strings"
 
+	"github.com/Azunyan1111/hugo/common/hugio"
 	"github.com/disintegration/gift"
-	"github.com/gohugoio/hugo/common/hugio"
 
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/gofont/goregular"

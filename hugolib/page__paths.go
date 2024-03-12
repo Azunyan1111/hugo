@@ -17,10 +17,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/gohugoio/hugo/output"
+	"github.com/Azunyan1111/hugo/output"
 
-	"github.com/gohugoio/hugo/resources/kinds"
-	"github.com/gohugoio/hugo/resources/page"
+	"github.com/Azunyan1111/hugo/resources/kinds"
+	"github.com/Azunyan1111/hugo/resources/page"
 )
 
 func newPagePaths(ps *pageState) (pagePaths, error) {
