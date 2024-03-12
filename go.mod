@@ -1,6 +1,6 @@
 module github.com/Azunyan1111/hugo
 
-replace github.com/gohugoio/hugo v0.123.8 => github.com/Azunyan1111/hugo latest
+replace github.com/gohugoio/hugo v0.123.8 => github.com/Azunyan1111/hugo v0.123.9
 
 require (
 	github.com/gohugoio/hugo v0.123.8
