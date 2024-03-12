@@ -1,4 +1,4 @@
-module github.com/gohugoio/hugo
+module github.com/Azunyan1111/hugo
 
 require (
 	github.com/BurntSushi/locker v0.0.0-20171006230638-a6e239ea1c69
@@ -117,6 +117,7 @@ require (
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/go-openapi/jsonpointer v0.20.2 // indirect
 	github.com/go-openapi/swag v0.22.8 // indirect
+	github.com/gohugoio/hugo v0.123.8 // indirect
 	github.com/golang-jwt/jwt/v5 v5.1.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
