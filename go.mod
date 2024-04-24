@@ -1,6 +1,7 @@
-module github.com/gohugoio/hugo
+module github.com/Azunyan1111/hugo
 
 require (
+	github.com/gohugoio/hugo v0.123.8
 	github.com/BurntSushi/locker v0.0.0-20171006230638-a6e239ea1c69
 	github.com/alecthomas/chroma/v2 v2.12.0
 	github.com/armon/go-radix v1.0.1-0.20221118154546-54df44f2176c
